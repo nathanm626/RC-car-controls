@@ -2,12 +2,14 @@
 #include "BTS7960.h"
 #include <ESP32Servo.h>
 // PINOUT
+// Motor Driver 
 // L_EN -> D13
 // R_EN -> D26
 // L_PWM -> D12
 // R_PWM -> D14
 // VCC   -> 3V3
 // Gnd   -> Gnd
+// Servo
 // Servo signal -> D18
 const uint8_t L_EN = 13;
 const uint8_t R_EN = 26;
